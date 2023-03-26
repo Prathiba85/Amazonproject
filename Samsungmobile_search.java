@@ -45,6 +45,7 @@ public class Samsungmobile_search {
 		//size of png is less, so it is advisable to use png 
 		File screenshot = new File ("amazon_samsung.png");
 		FileUtils.copyFile(fileobj, screenshot);
+		driver.close();
 
 
 	}
